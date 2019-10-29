@@ -1,0 +1,1323 @@
+body {
+  font-family: 'Lato', sans-serif !important;
+  font-size: 16px;
+}
+
+/* Common CSS */
+.img-responsive {
+  width: 100%;
+  height: auto;
+}
+section {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.pull-right {
+  float: right;
+}
+.pull-left {
+  float: left;
+}
+.p-r-0 {
+  padding-right: 0px !important;
+}
+.p-l-0 {
+  padding-left: 0px !important;
+}
+.p-t-0 {
+  padding-top: 0px !important;
+}
+.p-b-0 {
+  padding-bottom: 0px !important;
+}
+.p-t-10 {
+  padding-top: 10px;
+}
+.p-b-10 {
+  padding-bottom: 10px;
+}
+.m-t-15 {
+  margin-top: 15px;
+}
+.m-r-0 {
+  margin-right: 0px !important;
+}
+.m-b-0 {
+  margin-bottom: 0px !important;
+}
+.m-b-10 {
+  margin-bottom: 10px;
+}
+
+body {
+  width: 100%;
+}
+
+body div.width10 {
+  width: 10%;
+  float: left;
+  visibility: hidden;
+}
+
+body div.width80 {
+  width: 80%;
+  margin: 0 auto;
+  float: left;
+}
+
+/* Header CSS */
+section.header {
+  background: #d71a20;
+  color: #fff;
+  font-size: 14px;
+  padding: 20px 0px;
+}
+section.header .headlinks a {
+  color: #fff;
+  margin-right: 10px;
+}
+section.header .headlinks a:first-child{
+  margin-left: 2px;
+}
+section.header .headlinks a:hover {
+  text-decoration: none;
+}
+section.header .headlinks a.border-bot {
+  border-bottom: 1px solid #fff;
+}
+section.header .mainlogo {
+  padding: 15px 0px 30px 0px;
+}
+section.header .posabsolute {
+  position: absolute;
+  bottom: -15px;
+}
+section.header .posabsolute.posright {
+  right: 15px;
+}
+
+/* Navbar */
+.bg-dark {
+  background: #0c0b59 !important;
+}
+.dropdown{
+    border-radius:0;
+    border:0;
+}
+.dropdown-menu{
+    background: #0c0b59;
+    border:0;
+    top:98%;
+    border-radius:0px 0px 5px 5px;
+}
+.dropdown-item:hover{
+    background:#085ca5;
+    color:#fff;
+}
+.dropdown-menu a{
+    color:#fff;
+    margin: 0px;
+}
+.navbar .nav-item .nav-link{
+    color:#fff !important;
+    text-transform: uppercase;
+    font-size: 15px;
+    letter-spacing: 0.5px;
+    padding: 0px 7px;
+    margin-left: 12px;
+}
+.navbar .nav-item:first-child .nav-link {
+  padding-left: 0px !important;
+  margin: 0px 10px 0px 0px;
+}
+.navbar .nav-item:last-child .nav-link {
+  padding-left: 0px !important;
+  margin: 0px 0px 0px 20px;
+}
+.navbar .nav-item .nav-link:hover .navbar .nav-item .nav-link{
+    color:red !important;
+}
+li:not(:first-child).nav-item::after {
+  content: '|';
+  color: #fff;
+  position: absolute;
+  top: 14px;
+  padding-left: 0px;
+  padding-right: 3px;
+}
+li:last-child.nav-item::after {
+  top: -2px;
+}
+.form-inline {
+  margin-right: 0px;
+}
+.form-inline .form-control {
+  border-radius: 0px;
+  /*width: 275px;*/
+  width: 183px;
+}
+.form-inline .input-group-text {
+  background-color: #d71a20;
+  color: #fff;
+  border: 0px solid transparent;
+}
+
+/* News Ticker */
+.newsticker {
+    font-style: italic;
+    font-weight: bold;
+    position: relative;
+    padding: 0 0 0 90px;
+    font-size: 16px;
+}
+.newsticker:before {
+    content: "News Flash: ";
+    text-transform: uppercase;
+    display: inline-block;
+    font-style: normal;
+    /*background: #C20;*/
+    padding: 10px;
+    padding-left: 0px;
+    color: #d71a20;
+    font-weight: bold;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.newsticker:after {
+    content: '';
+    display: block;
+    top: 0;
+    left: 80px;
+    background: linear-gradient(#FFF, rgba(255, 255, 255, 0));
+    height: 20px;
+}
+.newsticker ul li {
+    list-style: none;
+    padding: 10px 0;
+}
+p.newstickerbtn {
+  margin-bottom: 0px;
+  padding: 5px 0px;
+}
+p.newstickerbtn a {
+  color: #d71a20;
+  font-size: 18px;
+}
+p.newstickerbtn a.btnUp, p.newstickerbtn a.btnDown {
+  font-size: 21px;
+}
+.smallbtn {
+  font-size: 14px;
+  top: -2px;
+  position: relative;
+}
+
+/* Adspace */
+.adspace.bordertop {
+  border-top: 1px solid #ddd;
+}
+
+/* Slider CSS */
+#slider, #slider1, #slider2, #slider3{
+	width:100%;
+	/*height:350px;*/
+	position:relative;
+	overflow:hidden;
+	float:left;
+	padding:0;
+	/*border:#666 solid 2px;*/
+	/*border-radius:5px;*/
+}
+.slide{
+	position:absolute;
+	width:100%;
+	height:100%;
+  display:none;
+}
+.slide-copy{
+	position:absolute;
+	bottom:0;
+	left:0;
+  top: 0;
+	/*padding:10px 20px 20px 20px;*/
+	/*background:7f7f7f;*/
+	/*background: rgba(0,0,0,0.5);*/
+	width:100%;
+	max-height:100%;
+}
+#slider .slide.active, #slider1 .slide.active, #slider2 .slide.active, #slider3 .slide.active {
+  display: block;
+}
+#prev, #next, #prev1, #next1, #prev2, #next2, #prev3, #next3 {
+  color: #92000d;
+  margin: 0 4px;
+}
+
+/* News Section  cover story*/
+.coverpage h4{
+	color: #92000d;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    font-weight: 600;
+}
+section.newssection1 .col-md-9>.row {
+  margin-bottom: 15px;
+}
+section.newssection1 .editorialsection {
+  background: #ffe5e8;
+  padding: 15px;
+}
+section.newssection1 .editorialsection p.title {
+  color: #92000d;
+  font-size: 16px;
+  font-weight: bold;
+  margin: 0px;
+  text-transform: uppercase;
+}
+section.newssection1 .editorialsection p.title::before {
+  content: '';
+  border-left: 8px solid;
+  margin-right: 10px;
+}
+section.newssection1 .editorialsection p.title span {
+  color: #969696;
+}
+section.newssection1 .editorialsection h4 {
+  margin-top: 15px;
+  font-weight: 600;
+  font-size: 22px;
+  color:#000;
+}
+.coversection img{
+	height:500px;
+	width:500px;
+	float:center;
+}
+.coversection2{
+	padding-top:50px;
+}
+.coversection2 img{
+	width:250px;
+	height:280px;
+	margin-left:10px;
+}
+.positivetrans h4{
+	color:#2a2a85;
+	font-weight:bold;
+}
+.positivetrans h2{
+	font-weight:bold;
+}
+.positivetrans img{
+	width:250px;
+	height:280px;
+	margin-right:10px;
+}
+
+.coversection4 h4{
+	padding-top:50px;
+}
+.coversection5 {
+	padding-top:50px;
+}
+.coversection5 h4 {
+	color:#2a2a85;
+	font-weight:bold;
+}
+.coversection5 table {
+	margin:30px 0px 30px 0px;;
+	width:60%;
+	color:#fff;
+	background-color:#d7181f;
+}
+.coversection5 table td {
+	padding:5px;
+	border-bottom:2px solid #fff;
+	font-weight:bold;
+}
+.collapsible {
+  background-color: #edead9d1;
+  color: #791113;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: center;
+  outline: none;
+  font-size: 15px;
+  font-weight:600;
+}
+
+.active, .collapsible:hover {
+  background-color: #edead9d1;
+}
+
+.content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #edead0;
+}
+.sensexsection{
+	/* background-color:#999;
+	padding:5px; */
+	}
+	
+#sen1{
+	color:#791113;
+	font-weight:bold;
+}
+#sen2{
+	color:#221f1f;
+	font-weight:bold;
+
+}
+#sen3{
+	color:#116c96;
+	font-weight:bold;
+
+}
+#sen4{
+	color:#221f1f;
+	font-weight:bold;
+
+}
+#sen5{
+	color:#116c96;
+	font-weight:bold;
+
+}
+#sen6{
+	color:#221f1f;
+	font-weight:bold;
+
+}
+#ex1{
+	color:#d7181f;
+	font-weight:bold;
+}
+
+.sensexsection p img{
+	width:180px;
+	height:238px;
+	margin-right:10px;
+}
+.sensexsection h2{
+	font-weight:bold;
+	}
+.sensexsection2 h2{
+	font-weight:bold;
+	}
+	
+.sensexsection2 p img{
+	width:180px;
+	height:238px;
+	margin-right:10px;
+}
+.icici p img{
+	width:180px;
+	height:50px;
+	margin-right:10px;
+}
+.eros p img{
+	width:200px;
+	height:70px;
+	margin-right:10px;
+}
+.eros h4 {
+	color:#2a2a85;
+	font-weight:bold;
+}
+.eros table {
+	margin:30px 0px 30px 0px;;
+	width:60%;
+	color:#fff;
+	background-color:#d7181f;
+}
+.eros table td {
+	padding:5px;
+	border-bottom:2px solid #fff;
+	font-weight:bold;
+}
+.nmdc p img{
+	width:200px;
+	height:180px;
+	margin-right:10px;
+}
+.nmdc h4 {
+	color:#2a2a85;
+	font-weight:bold;
+}
+.nmdc table {
+	margin:30px 0px 30px 0px;;
+	width:60%;
+	color:#fff;
+	background-color:#d7181f;
+}
+.nmdc table td {
+	padding:5px;
+	border-bottom:2px solid #fff;
+	font-weight:bold;
+}
+.infosys p img{
+	width:125px;
+	height:50px;
+	margin-right:10px;
+}
+.infosys h4 {
+	color:#2a2a85;
+	font-weight:bold;
+}
+.infosys table {
+	margin:30px 0px 30px 0px;;
+	width:60%;
+	color:#fff;
+	background-color:#d7181f;
+}
+.infosys table td {
+	padding:5px;
+	border-bottom:2px solid #fff;
+	font-weight:bold;
+}
+.lupin p img{
+	width:125px;
+	height:120px;
+	margin-right:10px;
+}
+.lupin h4 {
+	color:#2a2a85;
+	font-weight:bold;
+}
+.lupin table {
+	margin:30px 0px 30px 0px;;
+	width:60%;
+	color:#fff;
+	background-color:#d7181f;
+}
+.lupin table td {
+	padding:5px;
+	border-bottom:2px solid #fff;
+	font-weight:bold;
+}
+
+.sbi p img{
+	width:150px;
+	height:50px;
+	margin-right:10px;
+}
+.sbi h4 {
+	color:#2a2a85;
+	font-weight:bold;
+}
+.sbi table {
+	margin:30px 0px 30px 0px;;
+	width:60%;
+	color:#fff;
+	background-color:#d7181f;
+}
+.sbi table td {
+	padding:5px;
+	border-bottom:2px solid #fff;
+	font-weight:bold;
+}
+.supreme p img{
+	width:150px;
+	height:50px;
+	margin-right:10px;
+}
+.supreme h4 {
+	color:#2a2a85;
+	font-weight:bold;
+}
+.supreme table {
+	margin:30px 0px 30px 0px;;
+	width:60%;
+	color:#fff;
+	background-color:#d7181f;
+}
+.supreme table td {
+	padding:5px;
+	border-bottom:2px solid #fff;
+	font-weight:bold;
+}
+.turbo p img{
+	width:150px;
+	height:50px;
+	margin-right:10px;
+}
+.turbo h4 {
+	color:#2a2a85;
+	font-weight:bold;
+}
+.turbo table {
+	margin:30px 0px 30px 0px;;
+	width:60%;
+	color:#fff;
+	background-color:#d7181f;
+}
+.turbo table td {
+	padding:5px;
+	border-bottom:2px solid #fff;
+	font-weight:bold;
+}
+.tvs p img{
+	width:150px;
+	height:50px;
+	margin-right:10px;
+}
+.tvs h4 {
+	color:#2a2a85;
+	font-weight:bold;
+}
+.tvs table {
+	margin:30px 0px 30px 0px;;
+	width:60%;
+	color:#fff;
+	background-color:#d7181f;
+}
+.tvs table td {
+	padding:5px;
+	border-bottom:2px solid #fff;
+	font-weight:bold;
+}
+
+/*Cover Story End here*/
+
+
+/*Captain Speak*/
+
+.cap-head p {
+	background:#791113;
+	padding-left:10px;
+	margin:0px;
+}
+#kd{
+	color:#fff;
+}
+#shakti{
+	color:rgb(255,242,0)
+}
+.cap-head h1 {
+	background:orange;
+	margin:0px;
+	padding:10px 10px 10px 10px;
+}
+#kd2{
+	background-color:#d7181f;
+	padding:5px 5px;
+	
+	
+}
+.cap-head h4 {
+	background:rgb(255,242,0);
+	padding:5px 0px;
+	margin:20px 0px;
+}
+.cap-head img{
+	width:250px;
+	height:300px;
+	margin:5px;
+}
+ 
+#turnover{
+	padding:5px 0px;
+	
+}
+.kddl-detail{
+	background-color:#fff !important;
+}
+#pump{
+	background-color:#d7181f;
+	color:#fff;
+	padding:10px 5px;
+}
+#solar{
+	background-color:#8cc53f;
+	color:#000;
+	padding:16px 150px 11px 20px;
+	font-size: 18px;
+    font-weight: 600;
+}
+.shaktipump img{
+	width:250px;
+	height:300px;
+	margin:5px;
+}
+.shaktipump{
+	padding:30px 0px;
+}
+
+.collapsible2 {
+  background-color: #cee4ad;
+  color: #791113;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: center;
+  outline: none;
+  font-size: 15px;
+  font-weight:600;
+}
+
+.active, .collapsible2:hover {
+  background-color: #cee4ad;
+}
+
+.content2 {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #cee4ad;
+}
+
+.ongc img{
+	width:250px;
+	height:250px;
+	margin:5px;
+}
+.ongc{
+	padding:30px 0px;
+}
+#ongc1{
+	background-color:#d7181f;
+	color:#fff;
+	padding:10px 5px;
+}
+#crude{
+	background-color:#8cc53f;
+	color:#000;
+	padding:16px 150px 11px 20px;
+	font-size: 18px;
+    font-weight: 600;
+}
+.collapsible3 {
+  background-color: #ffe5b8;
+  color: #791113;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: center;
+  outline: none;
+  font-size: 15px;
+  font-weight:600;
+}
+
+.active, .collapsible3:hover {
+  background-color: #ffe5b8;
+}
+
+.content3 {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #ffe5b8;
+}
+.oilindia img{
+	width:250px;
+	height:250px;
+	margin:5px;
+}
+.oilindia{
+	padding:30px 0px;
+}
+#oil{
+	background-color:#d7181f;
+	color:#fff;
+	padding:10px 5px;
+}
+#energy{
+	background-color:#8cc53f;
+	color:#000;
+	padding:16px 150px 11px 20px;
+	font-size: 18px;
+    font-weight: 600;
+}
+.collapsible4 {
+  background-color: #c6eafa;
+  color: #791113;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: center;
+  outline: none;
+  font-size: 15px;
+  font-weight:600;
+}
+
+.active, .collapsible4:hover {
+  background-color: #c6eafa;
+}
+
+.content4 {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #c6eafa;
+}
+/*captain speak End*/
+
+
+/* Market Wind 2015 */
+.market{
+	display:flex;
+	flex-flow:row;
+}
+.market h4{
+	color:#d7181f;
+	font-weight:bold;
+}
+.market h6{
+	font-weight:bold;
+}
+.reliance {
+	margin:10px;
+}
+.minda{
+	margin:10px;
+}
+
+/* Market Wind 2015 End */
+
+
+/* Expert Opinion Start */
+
+.expert img{
+	height:250px;
+	width:200px;
+	margin:10px;
+}
+
+.expert span{
+	font-weight:bold;
+	color:#d7181f;
+} 
+
+/* Expert Opinion End */
+
+/* Corporate Grapevine Start */
+.mukesh-ambani h4{
+	color:#871315 !important;
+}
+.mukesh-ambani h1{
+	color:#871315 !important;
+}
+.mukesh-ambani img{
+	height:200px;
+	width:150px;
+	margin:10px;
+}
+.birla img{
+	height:100px;
+	width:150px;
+	margin:10px;
+}
+.birla h1{
+	color:#871315 !important;
+}
+#img-birla{
+	height:220px;
+	width:300px;
+	margin:10px;
+}
+.rajiv img{
+	height:200px;
+	width:150px;
+	margin:10px;
+}
+.rajiv h1{
+	color:#871315 !important;
+}
+.sajjan img{
+	height:200px;
+	width:150px;
+	margin:10px;
+}
+.sajjan h1{
+	color:#871315 !important;
+}
+.cap-speak h4{
+	color:#871315 !important;
+}
+
+/* Corporate Grapevine End */
+
+
+/* Money banking and finanace start */
+.money img{
+	height:300px;
+	width:200px;
+	margin:10px;
+}
+#money2{
+	height:150px;
+	width:250px;
+	margin:10px;
+}
+#money3{
+	height:150px;
+	width:250px;
+	margin:10px;
+}
+/* Money banking and finanace End */
+
+
+/* Special Feature Start */
+.special2 img{
+	float:center;
+}
+#special2{
+	height:250px;
+	width:250px;
+	margin:10px;
+}
+#special3{
+	height:200px;
+	width:250px;
+	margin:10px;
+}
+#special4{
+	height:200px;
+	width:250px;
+	margin:10px;
+}
+#special5{
+	height:300px;
+	margin:15px 0px;
+}
+#special6{
+	height:170px;
+	width:130px;
+	margin:10px;
+}
+#special7{
+	height:300px;
+	width:300px;
+	margin:10px;
+}
+#special2c{
+	background-color:#034da1;
+	color:#fff;
+	padding:10px;
+}
+#special9{
+	height:150px;
+	width:300px;
+	margin:10px;
+}
+#special11{
+	height:170px;
+	width:130px;
+	margin:5px 10px;
+}
+#special12{
+	height:300px;
+	width:200px;
+	margin:5px 10px;
+}
+#special13{
+	height:300px;
+	width:200px;
+	margin:5px 10px;
+}
+#special14{
+	height:200px;
+	width:300px;
+	margin:5px 10px;
+}
+#special15{
+	height:250px;
+	width:350px;
+	margin:5px 10px;
+}
+#special16{
+	margin:15px 0px;
+}
+#special17{
+	height:200px;
+	width:300px;
+	margin:5px 10px;
+}
+
+/* Special Feature End */
+
+
+
+section.newssection1 .writtenby {
+  color: #646560;
+  text-transform: uppercase;
+  font-size: 13px;
+  letter-spacing: 2.6px;
+  margin-bottom: 0px;
+  margin-top: 6px;
+}
+section.newssection1 .writtenby1 {
+  letter-spacing: 0;
+  text-transform: none;
+}
+section.newssection1 .author {
+  color: #646560;
+  font-weight: 600;
+  letter-spacing: 1px;
+  margin-bottom: 0px;
+  font-size: 14px;
+}
+section.newssection1 .abmore {
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+}
+.coverstory{background-color:#fff !important;
+}
+section.newssection1 .coverstory {
+  background: #fff;
+  padding: 0px;
+}
+section.newssection1 .coverstoryborder {
+  border: 1px solid #d71a20;
+  padding-top: 10px;
+}
+section.newssection1 .coverstory .imgsection {
+  margin-top: 15px;
+}
+section.newssection1 .imgsection .img-responsive {
+  width: 100%;
+  height: 251.11px;
+  object-fit: fill;
+}
+section.newssection1 .readmore {
+  color: #d71a1e;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 14px;
+}
+section.newssection1 .readmore i {
+  position: relative;
+  bottom: 3px;
+  font-size: 20px;
+}
+section.newssection1 .readmore i.fa-sort-up {
+  bottom: -5px;
+}
+section.newssection1 .readmore:hover {
+  text-decoration: none;
+}
+
+section.newssection1 .analystcorner {
+  background: #e8e7f7;
+}
+section.newssection1 .analystcorner p {
+  margin-bottom: 0px;
+}
+
+section.newssection1 .expertopinion {
+  background: #ffffe5;
+}
+
+section.newssection1 .latestissue {
+  background: #ebebeb;
+  padding: 20px;
+  text-align: center;
+  padding-bottom: 1px;
+}
+section.newssection1 .latestissue p {
+  font-size: 11.5px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+section.newssection1 .latestissuelink {
+  background: #d71a20;
+  padding: 10px;
+  text-align: center;
+}
+section.newssection1 .latestissuelink a {
+  color: #fff;
+  font-size: 15px;
+  letter-spacing: 2.6px;
+  text-transform: uppercase;
+  display: block;
+}
+section.newssection1 .latestissuelink a:hover {
+  text-decoration: none;
+}
+section.newssection1 .latestissuelink.advertiselink {
+  background: #0c0b59;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+section.newssection1 .industryreview {
+  margin-top: 15px;
+}
+section.newssection1 .industryreview p.title {
+  border-top: 2px solid #0c0b59;
+  text-align: center;
+  font-size: 18px;
+  text-transform: uppercase;
+  padding-top: 5px;
+  margin-bottom: 5px;
+}
+section.newssection1 .industryreview .portfolioplanner {
+  background-image: url('../images/greyspace.png');
+  padding: 10px 20px;
+}
+
+.btn span.icon {
+  font-size: 18px;
+}
+
+/* Footer CSS */
+section.footer {
+  background: #000000;
+  padding: 20px;
+  color: #fff;
+}
+section.footer p.foothead {
+  font-size: 16px;
+  text-transform: uppercase;
+  margin-top: 25px;
+  margin-bottom: 5px;
+  color: #ffe100;
+}
+section.footer p.footcontent {
+  font-size: 14px;
+}
+section.footer .footlinks a {
+  font-size: 18px;
+  color: #fff;
+}
+section.footer .footlinks a:hover {
+  text-decoration: none;
+}
+section.footer p.advertise {
+  font-size: 14px;
+}
+section.footer p.advertisebtn {
+  background: #ffe100;
+  text-align: center;
+}
+section.footer p.advertisebtn a {
+  font-size: 15px;
+  display: block;
+  color: #000;
+  padding: 10px;
+  text-transform: uppercase;
+  letter-spacing: 2.6px;
+  margin-top: 38.5%;
+}
+section.footer p.advertisebtn a:hover {
+  text-decoration: none;
+}
+section.footer form.footform .form-control {
+    display: block;
+    width: 100%;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: transparent;
+    background-clip: padding-box;
+    border: 0px solid #ced4da;
+    border-bottom: 1px solid #fff;
+    border-radius: 0px;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.form-control:focus {
+  box-shadow: 0 0 0px rgba(81, 203, 238, 1);
+}
+button.signupnews {
+  background: #d71920;
+  border: 1px solid #d71920;
+  width: 100%;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border-radius: 0px;
+  margin-top: 7px;
+  padding: 5px;
+  height: auto;
+  font-weight: 300;
+}
+button.btn-primary:hover {
+  color: #fff;
+  background-color: #d71920;
+  border-color: #d71920;
+}
+
+.d-readmore {
+    /*line-height: 1.8;*/
+    min-height: 3px;
+    overflow: hidden;
+    /*font-weight: 600;*/
+}
+/*.d-readmore_btn { border-bottom: 2px dashed #000; color: #ff0000; }*/
+.d-readmove_text-wrapp, .d-readmore {
+  margin-bottom: 10px;
+}
+
+/* Coverstory Page */
+.coverstorypage {
+  margin-top: 0px;
+}
+.coverstorypage h4 {
+  color: #92000d;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  font-weight: 600;
+}
+.coverstorypage h4 span.pull-right {
+  font-size: 18px;
+  color: #969696;
+}
+.coverstorypage p.pub_update {
+  font-size: 14px;
+  color: #646560;
+}
+.coverstorypage p.pub_update span {
+  text-transform: uppercase;
+}
+.coverstorypage h5 {
+  font-size: 23px;
+}
+
+/* Admin Panel CSS */
+section.adminheader {
+  background: #d71920;
+}
+section.adminheader .m-t-3 {
+  margin-top: 3px;
+}
+section.adminheader img.adminavatar {
+  height: 50px;
+  width: 50px;
+}
+section.adminheader p.loginname {
+  font-size: 15px;
+  color: #fff;
+  margin: 0px;
+  text-align: right;
+  margin-right: 10px;
+  line-height: 16px;
+  margin-top: 10px;
+}
+section.adminheader p.loginname span.role {
+  font-size: 12px;
+  text-align: right;
+}
+section.adminheader p.logout {
+  margin: 0px;
+  margin-top: 10px;
+  font-size: 25px;
+  color: #fff;
+  border-left: 1px solid #fff;
+  padding-left: 20px;
+}
+section.adminheader p.logout a:hover {
+  color: #fff;
+}
+.adminpanel  li:not(:first-child).nav-item::after {
+/*nav.navbar ul.navbar li:not(:first-child).nav-item::after {*/
+  top: -2px !important;
+}
+
+section.adminbody {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+/* Style the list */
+section.adminbody ul.breadcrumb {
+  padding: 10px 16px;
+  list-style: none;
+  background-color: #eee;
+}
+
+/* Display list items side by side */
+section.adminbody ul.breadcrumb li {
+  display: inline;
+  font-size: 18px;
+}
+
+/* Add a slash symbol (/) before/behind each list item */
+section.adminbody ul.breadcrumb li+li:before {
+  padding: 8px;
+  color: black;
+  content: "/\00a0";
+}
+
+/* Add a color to all links inside the list */
+section.adminbody ul.breadcrumb li a {
+  color: #0275d8;
+  text-decoration: none;
+}
+
+/* Add a color on mouse-over */
+section.adminbody ul.breadcrumb li a:hover {
+  color: #01447e;
+  text-decoration: underline;
+}
+section.adminbody .adminbodypanel {
+  padding: 10px;
+  background: #333;
+  color: #fff;
+}
+section.adminbody .adminbodypanel1 {
+  padding: 10px;
+  border: 1px solid #333;
+  background: #e3e3e3;
+}
+section.adminbody .adminbodypanel h5 {
+  margin: 0px;
+}
+section.adminbody .adminbodypanel1 label {
+  font-size: 14px;
+  font-weight: 800;
+}
+section.adminbody .adminbodypanel1 .form-control {
+  border-radius: 0px;
+  height: 30px;
+  padding: 2px 10px;
+  font-size: 14px;
+}
+section.adminbody .adminbodypanel1 input[type="file"] {
+  padding: 0px !important;
+}
+section.adminbody .adminbodypanel1 .btn {
+  height: auto;
+  padding: 5px 18px;
+  border-radius: 0px;
+  background: #333;
+  font-size: 16px;
+  font-weight: 100;
+  border: 1px solid #333;
+}
+section.adminbody .adminbodypanel1 .alert.alert-danger {
+  background: #333;
+  color: #fff;
+  border-color: #333;
+  border-radius: 0px;
+}
+section.adminbody .adminbodypanel1 .alert.alert-danger p {
+  margin-bottom: 5px;
+}
+
+section.adminfooter {
+  background: #d71920;
+  border-top: 1px solid #eee;
+  position: fixed;
+  width: 100%;
+  bottom: 0px;
+  color: #fff;
+  font-size: 14px;
+}
+section.adminfooter p {
+  margin: 0px;
+  /*text-align: center;*/
+}
+
+@media (min-width: 576px) {
+  .navbar-expand-sm {
+    padding: .5rem 0px;
+  }
+}
